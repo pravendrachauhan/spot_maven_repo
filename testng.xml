@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.spot.testcase.LoginTestCase"/>
+      <class name="com.automation.spot.testcase.SignUpTestCase"/>
+      <class name="com.automation.spot.testcase.PlacesTestCase"/>
+      <class name="com.automation.spot.testcase.InventoryItemTestCase"/>
+      <class name="com.automation.spot.testcase.InventoryTagTestCase"/>
+      <class name="com.automation.spot.testcase.GetDirectionsTestCase"/>
+      <class name="com.automation.spot.testcase.ItemDetailsViewScreenTestCase"/>
+      <class name="com.automation.spot.testcase.ItemDetailsTestCase"/>
+      <class name="com.automation.spot.testcase.MimicTestCase" />
+      <!--Not possible Original error: Permission to start activity denied.-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
